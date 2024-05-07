@@ -2,7 +2,7 @@ const _ = require('underscore');
 
 let stack = [];
 
-let name = "Märta franzen";
+let name = "Lucas Asker";
 
 // Lägger ett element överst i stacken
 exports.push = function (x) {
