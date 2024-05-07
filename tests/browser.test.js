@@ -7,7 +7,7 @@ let driver;
 jest.setTimeout(1000 * 60 * 5); // 5 minuter
 
 // Det här körs innan vi kör testerna för att säkerställa att Firefox är igång
-beforeAll(async () => {
+beforeAll(async() => {
     driver = await new Builder().forBrowser('firefox').build();
     await driver.get(fileUnderTest);
 });
