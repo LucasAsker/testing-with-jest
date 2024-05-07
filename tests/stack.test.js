@@ -17,3 +17,7 @@ test('peek on stack with two or more elements returns the top element', () => {
     expect(stack.peek()).toBeDefined();
     expect(stack.peek()).toBe(42);
 });
+
+test('Check if name is "Lucas Asker"', () => {
+    expect(stack.name).toBe("Lucas Asker");
+});
