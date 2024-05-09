@@ -31,6 +31,7 @@ describe('Clicking "Pusha till stacken"', () => {
 		await alert.sendKeys("Bananer");
 		await alert.accept();
 
+		// Detta är det andra testet som jag skrev, Bara för att tydliggöra 
 		let topOfStack = await driver.findElement(By.id('top_of_stack')).getText();
         expect(topOfStack).toEqual("Bananer");
 	});
